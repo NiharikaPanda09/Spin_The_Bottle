@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: blueviolet;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    color: black;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+form{
+    margin: 20px;
+}
+#add-player{
+    border: none;
+    padding: 5px;
+    border-bottom: 3px solid rgba(103, 92, 114, 0.71);
+    border-radius: 5px;
+    background-color: burlywood;
+}
+#add-player:hover{
+    color: blueviolet;
+    background-color: black;
+}
+label{
+    color: black;
+   font-weight: 100;
+}
+#players-text{
+    color: black;
+    font-weight: bold;
+}
+#status,#spin{
+    margin:10px;
+}
+#spin{
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid rgba(103, 92, 114, 0.71) ;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+#spin:hover{
+    background-color: black;
+    color: blueviolet;
+}
+#player-name{
+    border: none;
+    border-bottom: 3px solid rgba(103, 92, 114, 0.71) ;
+
+
+}
+#player-name::placeholder{
+    color: black;
+
+}
+input{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}

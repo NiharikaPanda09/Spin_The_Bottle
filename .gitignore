@@ -1,0 +1,16 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Spin The Bottle/*
+!/Spin The Bottle/task/
+/Spin The Bottle/task/*
+!/Spin The Bottle/task/src
